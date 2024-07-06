@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|d:\\web blazor\\kimloc_doan\\kimloc_doan\\kimloc_doan\\pages\\xembs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|solutionrelative:kimloc_doan\\pages\\xembs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|d:\\web blazor\\kimloc_doan\\kimloc_doan\\kimloc_doan\\pages\\datlichbenhnhan.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|solutionrelative:kimloc_doan\\pages\\datlichbenhnhan.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|d:\\web blazor\\kimloc_doan\\kimloc_doan\\kimloc_doan\\pages\\qlybacsi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|solutionrelative:kimloc_doan\\pages\\qlybacsi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|d:\\web blazor\\kimloc_doan\\kimloc_doan\\kimloc_doan\\pages\\qlydatlicht.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|solutionrelative:kimloc_doan\\pages\\qlydatlicht.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|d:\\web blazor\\kimloc_doan\\kimloc_doan\\kimloc_doan\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A377FBFA-7E4F-4BF4-B65A-8347B6207505}|KimLoc_DoAn\\KimLoc_DoAn.csproj|solutionrelative:kimloc_doan\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QLyBacSi.razor",
+              "DocumentMoniker": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\QLyBacSi.razor",
+              "RelativeDocumentMoniker": "KimLoc_DoAn\\Pages\\QLyBacSi.razor",
+              "ToolTip": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\QLyBacSi.razor",
+              "RelativeToolTip": "KimLoc_DoAn\\Pages\\QLyBacSi.razor",
+              "ViewState": "AQIAABYBAAAAAAAAAAAswCIBAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T01:55:22.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XemBS.razor",
+              "DocumentMoniker": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\XemBS.razor",
+              "RelativeDocumentMoniker": "KimLoc_DoAn\\Pages\\XemBS.razor",
+              "ToolTip": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\XemBS.razor",
+              "RelativeToolTip": "KimLoc_DoAn\\Pages\\XemBS.razor",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwFcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T01:52:10.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatLichBenhNhan.razor",
+              "DocumentMoniker": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\DatLichBenhNhan.razor",
+              "RelativeDocumentMoniker": "KimLoc_DoAn\\Pages\\DatLichBenhNhan.razor",
+              "ToolTip": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\DatLichBenhNhan.razor",
+              "RelativeToolTip": "KimLoc_DoAn\\Pages\\DatLichBenhNhan.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T01:12:10.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLyDatLicht.razor",
+              "DocumentMoniker": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\QLyDatLicht.razor",
+              "RelativeDocumentMoniker": "KimLoc_DoAn\\Pages\\QLyDatLicht.razor",
+              "ToolTip": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Pages\\QLyDatLicht.razor",
+              "RelativeToolTip": "KimLoc_DoAn\\Pages\\QLyDatLicht.razor",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T01:12:04.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "KimLoc_DoAn\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Web blazor\\KimLoc_DoAn\\KimLoc_DoAn\\KimLoc_DoAn\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "KimLoc_DoAn\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T13:32:10.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

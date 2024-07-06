@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KimLoc_DoAn
+build_property.RootNamespace = KimLoc_DoAn
+build_property.ProjectDir = D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/AdminLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/DatLichBenhNhan.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0TGljaEJlbmhOaGFuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/DatLichKham.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0TGljaEtoYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/QLyBacSi.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUUx5QmFjU2kucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/QlyBenhNhan.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUWx5QmVuaE5oYW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/QLyDatLicht.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUUx5RGF0TGljaHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/QlyKhoa.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUWx5S2hvYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/QuyMoBV.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXV5TW9CVi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/TongDaiBV.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9uZ0RhaUJWLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/TrangChu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbmdDaHUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/XemBS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWGVtQlMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dnggwcw635
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-r4cnw1t54l
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web blazor/KimLoc_DoAn/KimLoc_DoAn/KimLoc_DoAn/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

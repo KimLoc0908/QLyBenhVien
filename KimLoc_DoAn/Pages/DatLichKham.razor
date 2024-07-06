@@ -1,0 +1,141 @@
+﻿@page "/datlichkham"
+@using KimLoc_DoAn.Models
+@using Microsoft.EntityFrameworkCore
+@inject QLyBenhVienContext DbContext
+@inject NavigationManager Navigation
+
+<h3>Đặt Lịch</h3>
+
+<EditForm Model="@datLich" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="benhNhanId">Bệnh Nhân</label>
+        <InputSelect id="benhNhanId" @bind-Value="datLich.BenhNhanId" class="form-control">
+            <option value="">Chọn Bệnh Nhân</option>
+            @foreach (var benhNhan in benhNhans)
+            {
+                <option value="@benhNhan.Id">@benhNhan.HoTenBenhNhan</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="form-group">
+        <label for="bacSiId">Bác Sĩ</label>
+        <InputSelect id="bacSiId" @bind-Value="datLich.BacSiId" class="form-control">
+            <option value="">Chọn Bác Sĩ</option>
+            @foreach (var bacSi in bacSis)
+            {
+                <option value="@bacSi.Id">@bacSi.TenBacSi</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="form-group">
+        <label for="ngayDatLich">Ngày Đặt Lịch</label>
+        <InputDate id="ngayDatLich" @bind-Value="datLich.NgayDatLich" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="ngayHenKham">Ngày Hẹn Khám</label>
+        <InputDate id="ngayHenKham" @bind-Value="datLich.NgayHenKham" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="ghiChu">Ghi Chú</label>
+        <InputTextArea id="ghiChu" @bind-Value="datLich.GhiChu" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Đặt Lịch</button>
+</EditForm>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h3 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #2c3e50;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .form-control, .btn {
+        margin-bottom: 15px;
+    }
+
+    .validation-summary {
+        color: red;
+        margin-bottom: 20px;
+    }
+</style>
+
+@code {
+    private DatLich datLich = new DatLich();
+    private List<BenhNhan> benhNhans = new List<BenhNhan>();
+    private List<BacSi> bacSis = new List<BacSi>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        benhNhans = await DbContext.BenhNhans.ToListAsync();
+        bacSis = await DbContext.BacSis.ToListAsync();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        DbContext.DatLichs.Add(datLich);
+        await DbContext.SaveChangesAsync();
+        Navigation.NavigateTo("/datlichlist");
+    }
+}

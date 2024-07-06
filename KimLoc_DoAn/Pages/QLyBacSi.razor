@@ -1,0 +1,309 @@
+﻿@page "/Bacsi"
+@using KimLoc_DoAn.Models
+@using Microsoft.EntityFrameworkCore
+@inject QLyBenhVienContext DbContext
+@inject IWebHostEnvironment env
+@attribute [Authorize]
+
+<div class="container">
+    <h4>Danh sách Bác Sĩ</h4>
+    <div class="search-container">
+        <input type="text" class="form-control" @bind="searchTerm" placeholder="Tìm kiếm Bác Sĩ..." />
+        <button class="btn btn-primary" @onclick="SearchBacSi">Tìm Kiếm</button>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tên Bác Sĩ</th>
+                <th>Năm Kinh Nghiệm</th>
+                <th>Khoa</th>
+                <th>Hình Ảnh</th>
+                <th>Mô Tả</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bacSi in filteredBacSis)
+            {
+                <tr>
+                    <td>@bacSi.TenBacSi</td>
+                    <td>@bacSi.NamKinhNghiem</td>
+                    <td>@bacSi.Khoa?.TenKhoa</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(bacSi.HinhAnh))
+                        {
+                            <img src="@bacSi.HinhAnh" alt="Hình Ảnh" class="doctor-img" />
+                        }
+                    </td>
+                    <td>@bacSi.MoTaBacSi</td>
+                    <td>
+                        <button class="btn btn-warning" @onclick="() => EditBacSi(bacSi)">Chỉnh Sửa</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteBacSi(bacSi.Id)">Xóa</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="form-container">
+        <h4>@(isEditing ? "Chỉnh Sửa Bác Sĩ" : "Thêm Bác Sĩ")</h4>
+        <EditForm Model="newBacSi" OnValidSubmit="HandleValidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <label for="TenBacSi">Tên Bác Sĩ:</label>
+                <InputText id="TenBacSi" class="form-control" @bind-Value="newBacSi.TenBacSi" />
+                <ValidationMessage For="@(() => newBacSi.TenBacSi)" />
+            </div>
+
+            <div class="form-group">
+                <label for="NamKinhNghiem">Năm Kinh Nghiệm:</label>
+                <InputNumber id="NamKinhNghiem" class="form-control" @bind-Value="newBacSi.NamKinhNghiem" />
+                <ValidationMessage For="@(() => newBacSi.NamKinhNghiem)" />
+            </div>
+
+            <div class="form-group">
+                <label for="KhoaId">Khoa:</label>
+                <select id="KhoaId" class="form-control" @bind="newBacSi.KhoaId">
+                    <option value="">Chọn Khoa</option>
+                    @foreach (var khoa in khoas)
+                    {
+                        <option value="@khoa.Id">@khoa.TenKhoa</option>
+                    }
+                </select>
+                <ValidationMessage For="@(() => newBacSi.KhoaId)" />
+            </div>
+
+            <div class="form-group">
+                <label for="HinhAnh">Hình Ảnh:</label>
+                <InputFile id="HinhAnh" OnChange="HandleFileSelected" />
+                <ValidationMessage For="@(() => newBacSi.HinhAnh)" />
+            </div>
+
+            <div class="form-group">
+                <label for="MoTaBacSi">Mô Tả Bác Sĩ:</label>
+                <InputTextArea id="MoTaBacSi" class="form-control" @bind-Value="newBacSi.MoTaBacSi" />
+                <ValidationMessage For="@(() => newBacSi.MoTaBacSi)" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">@((isEditing ? "Cập Nhật" : "Thêm"))</button>
+        </EditForm>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 2000px;
+        margin: 20 auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h4 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+        .search-container .btn-primary {
+            padding: 10px 15px;
+            font-size: 10px;
+            height: 38px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+    .form-control {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .table thead {
+            background-color: #2980b9;
+            color: #fff;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .form-container {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #2c3e50;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+    }
+
+    .btn-warning {
+        background-color: #f39c12;
+    }
+
+    .btn-danger {
+        background-color: #e74c3c;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .doctor-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+@code {
+    private List<BacSi> bacSis = new List<BacSi>();
+    private List<Khoa> khoas = new List<Khoa>();
+    private BacSi newBacSi = new BacSi();
+    private IBrowserFile? selectedFile;
+    private bool isEditing = false;
+    private string searchTerm = "";
+    private List<BacSi> filteredBacSis = new List<BacSi>();
+
+    protected override void OnInitialized()
+    {
+        LoadData();
+    }
+
+    private void LoadData()
+    {
+        bacSis = DbContext.BacSis.Include(b => b.Khoa).ToList();
+        filteredBacSis = bacSis;
+        khoas = DbContext.Khoas.ToList();
+    }
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        if (selectedFile != null)
+        {
+            var filePath = Path.Combine(env.WebRootPath, "images", selectedFile.Name);
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                await selectedFile.OpenReadStream().CopyToAsync(fileStream);
+            }
+            newBacSi.HinhAnh = $"/images/{selectedFile.Name}";
+        }
+    }
+
+    private void HandleValidSubmit()
+    {
+        if (isEditing)
+        {
+            DbContext.BacSis.Update(newBacSi);
+        }
+        else
+        {
+            DbContext.BacSis.Add(newBacSi);
+        }
+
+        DbContext.SaveChanges();
+        LoadData();
+        ResetForm();
+    }
+
+    private void EditBacSi(BacSi bacSi)
+    {
+        newBacSi = bacSi;
+        isEditing = true;
+    }
+
+    private void DeleteBacSi(Guid id)
+    {
+        var bacSiToDelete = DbContext.BacSis.Find(id);
+        if (bacSiToDelete != null)
+        {
+            DbContext.BacSis.Remove(bacSiToDelete);
+            DbContext.SaveChanges();
+            LoadData();
+        }
+    }
+
+    private void ResetForm()
+    {
+        newBacSi = new BacSi();
+        selectedFile = null;
+        isEditing = false;
+    }
+
+    private void SearchBacSi()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredBacSis = bacSis;
+        }
+        else
+        {
+            filteredBacSis = bacSis.Where(b => b.TenBacSi.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+}

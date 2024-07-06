@@ -1,0 +1,317 @@
+﻿@page "/datlichlist"
+@using KimLoc_DoAn.Models
+@using Microsoft.EntityFrameworkCore
+@inject QLyBenhVienContext DbContext
+@attribute [Authorize]
+
+<h3>Danh sách Lịch Hẹn</h3>
+
+<div class="search-container">
+    <input type="text" @bind="searchTerm" @bind:event="oninput" placeholder="Tìm kiếm..." class="form-control mb-3 search-input" />
+    <button class="btn btn-primary search-button" @onclick="SearchDatLichs">Tìm kiếm</button>
+</div>
+
+@if (datLichs == null)
+{
+    <p><em>Đang tải...</em></p>
+}
+else if (filteredDatLichs == null || !filteredDatLichs.Any())
+{
+    <p><em>Không tìm thấy lịch hẹn.</em></p>
+}
+else
+{
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Bệnh Nhân</th>
+                    <th>Bác Sĩ</th>
+                    <th>Ngày Đặt Lịch</th>
+                    <th>Ngày Hẹn Khám</th>
+                    <th>Ghi Chú</th>
+                    <th>Trạng Thái</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var datLich in filteredDatLichs.Select((value, index) => new { value, index }))
+                {
+                    <tr>
+                        <td>@(datLich.index + 1)</td>
+                        <td>@datLich.value.BenhNhan.HoTenBenhNhan</td>
+                        <td>@datLich.value.BacSi?.TenBacSi</td>
+                        <td>@datLich.value.NgayDatLich.ToShortDateString()</td>
+                        <td>@datLich.value.NgayHenKham.ToShortDateString()</td>
+                        <td>@datLich.value.GhiChu</td>
+                        <td>@datLich.value.TrangThai</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="() => DeleteDatLich(datLich.value.Id)">Xóa</button>
+                            <button class="btn btn-success" @onclick="() => ToggleStatus(datLich.value)">@((datLich.value.TrangThai == "Đã khám") ? "Chưa Khám" : "Đã Khám")</button>
+                            <button class="btn btn-info" @onclick="() => ViewBenhNhan(datLich.value.BenhNhan)">Xem</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@if (selectedBenhNhan != null)
+{
+    <div class="modal show" style="display: block;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thông tin bệnh nhân</h5>
+                    <button type="button" class="close" @onclick="() => selectedBenhNhan = null">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Họ Tên:</strong> @selectedBenhNhan.HoTenBenhNhan</p>
+                    <p><strong>Tên Bệnh:</strong> @selectedBenhNhan.TenBenh</p>
+                    <p><strong>Ngày Sinh:</strong> @selectedBenhNhan.NgaySinh.ToShortDateString()</p>
+                    <p><strong>Số Điện Thoại:</strong> @selectedBenhNhan.SoDienThoai</p>
+                    <p><strong>Địa Chỉ:</strong> @selectedBenhNhan.DiaChi</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="() => selectedBenhNhan = null">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1700px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h3 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .table thead {
+            background-color: #2980b9;
+            color: #fff;
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+    }
+
+    .btn-warning {
+        background-color: #f39c12;
+    }
+
+    .btn-danger {
+        background-color: #e74c3c;
+    }
+
+    .btn-success {
+        background-color: #2ecc71;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .validation-summary {
+        color: red;
+        margin-bottom: 20px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1050;
+    }
+
+    .modal-dialog {
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-header, .modal-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+
+    .close {
+        cursor: pointer;
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .search-input {
+        flex: 1;
+        max-width: 1200px;
+        padding: 10px 15px;
+        border-radius: 5px 0 0 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    .search-button {
+        padding: 0 15px;
+        border-radius: 0 5px 5px 0;
+        border: 1px solid #3498db;
+        background-color: #3498db;
+        color: #fff;
+        font-size: 16px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+    }
+
+</style>
+
+@code {
+    private List<DatLich> datLichs;
+    private List<DatLich> filteredDatLichs;
+    private DatLich newDatLich = new DatLich();
+    private BenhNhan selectedBenhNhan;
+    private bool isEditing = false;
+    private string searchTerm = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        datLichs = await DbContext.DatLichs
+            .Include(dl => dl.BenhNhan)
+            .Include(dl => dl.BacSi)
+            .ToListAsync();
+        filteredDatLichs = datLichs;
+    }
+
+    private void EditDatLich(DatLich datLich)
+    {
+        newDatLich = datLich;
+        isEditing = true;
+    }
+
+    private async Task DeleteDatLich(Guid id)
+    {
+        var datLichToDelete = await DbContext.DatLichs.FindAsync(id);
+        if (datLichToDelete != null)
+        {
+            DbContext.DatLichs.Remove(datLichToDelete);
+            await DbContext.SaveChangesAsync();
+            datLichs = await DbContext.DatLichs
+                .Include(dl => dl.BenhNhan)
+                .Include(dl => dl.BacSi)
+                .ToListAsync();
+            filteredDatLichs = datLichs;
+        }
+    }
+
+    private async Task ToggleStatus(DatLich datLich)
+    {
+        datLich.TrangThai = (datLich.TrangThai == "Đã khám") ? "Đang xử lý" : "Đã khám";
+        DbContext.DatLichs.Update(datLich);
+        await DbContext.SaveChangesAsync();
+        datLichs = await DbContext.DatLichs
+            .Include(dl => dl.BenhNhan)
+            .Include(dl => dl.BacSi)
+            .ToListAsync();
+        filteredDatLichs = datLichs;
+    }
+
+    private void ViewBenhNhan(BenhNhan benhNhan)
+    {
+        selectedBenhNhan = benhNhan;
+    }
+
+    private void SearchDatLichs()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredDatLichs = datLichs;
+        }
+        else
+        {
+            filteredDatLichs = datLichs.Where(dl =>
+                (dl.BenhNhan.HoTenBenhNhan != null && dl.BenhNhan.HoTenBenhNhan.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+                (dl.BacSi != null && dl.BacSi.TenBacSi.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))).ToList();
+        }
+    }
+}

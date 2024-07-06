@@ -1,0 +1,77 @@
+﻿@page "/quymo"
+<div class="container py-5">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h2 class="display-3" style="color: #007bff;">Cơ sở vật chất bệnh viện</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://penviet.com/wp-content/uploads/2022/10/Thiet-ke-phong-kham-16.png" class="card-img-top" alt="Facility 1" style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Phòng khám hiện đại</h5>
+                    <p class="card-text">Phòng khám của chúng tôi được trang bị các thiết bị y tế hiện đại, đảm bảo điều kiện tốt nhất cho việc khám và điều trị.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://phongkhamkenh8.com/uploads/news/2023_07/slide-2.jpg" class="card-img-top" alt="Facility 2" style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Khu vực chờ thoải mái</h5>
+                    <p class="card-text">Khu vực chờ của chúng tôi được thiết kế thoải mái và tiện nghi, mang lại trải nghiệm tốt nhất cho bệnh nhân và người thân.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://png.pngtree.com/background/20230519/original/pngtree-operative-room-in-the-hospital-picture-image_2654606.jpg" class="card-img-top" alt="Facility 3" style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Phòng phẫu thuật tiên tiến</h5>
+                    <p class="card-text">Phòng phẫu thuật của chúng tôi được trang bị các thiết bị tiên tiến và hiện đại, đảm bảo an toàn và hiệu quả cho các ca phẫu thuật.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="jumbotron jumbotron-fluid" style="background-color: #e9f0f5; padding: 3rem;">
+                <div class="container">
+                    <h1 class="display-4" style="color: #007bff;">Cơ sở vật chất hiện đại</h1>
+                    <p class="lead">Chúng tôi đầu tư vào cơ sở vật chất hiện đại, mang đến môi trường tốt nhất cho việc chăm sóc sức khỏe của bạn.</p>
+                    <hr class="my-4">
+                    <p>Liên hệ với chúng tôi ngay hôm nay để biết thêm thông tin hoặc đặt lịch hẹn.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="jumbotron jumbotron-fluid" style="background-color: #f8f9fa; padding: 3rem;">
+                <div class="container">
+                    <h1 class="display-4" style="color: #007bff;">Tiện nghi và thoải mái</h1>
+                    <p class="lead">Chúng tôi không chỉ chú trọng vào trang thiết bị y tế mà còn đầu tư vào các tiện nghi nhằm mang lại sự thoải mái cho bệnh nhân.</p>
+                    <hr class="my-4">
+                    <p>Liên hệ với chúng tôi ngay hôm nay để biết thêm thông tin hoặc đặt lịch hẹn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <a class="btn btn-primary btn-lg" id="datlichBtn" role="button" style="width: 200px;">Đặt lịch hẹn</a>
+            <a class="btn btn-primary btn-lg" id="trangchuBtn" role="button" style="width: 60px;">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('datlichBtn').addEventListener('click', function () {
+        window.location.href = '/datlich';
+    });
+</script>
+<script>
+    document.getElementById('trangchuBtn').addEventListener('click', function () {
+        window.location.href = '/';
+    });
+</script>

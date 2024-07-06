@@ -1,0 +1,150 @@
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.exe
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Blazored.LocalStorage.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.csproj.AssemblyReference.cache
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.AssemblyInfoInputs.cache
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.AssemblyInfo.cs
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.csproj.CoreCompileInputs.cache
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.MvcApplicationPartsAssemblyInfo.cache
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.RazorAssemblyInfo.cache
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.RazorAssemblyInfo.cs
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\appsettings.Development.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\appsettings.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.staticwebassets.runtime.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.deps.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.runtimeconfig.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.pdb
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Humanizer.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets.build.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets.development.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.KimLoc_DoAn.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.build.KimLoc_DoAn.props
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.KimLoc_DoAn.props
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.KimLoc_DoAn.props
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\bundle\KimLoc_DoAn.styles.css
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\projectbundle\KimLoc_DoAn.bundle.scp.css
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_D.6C0DDABF.Up2Date
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\refint\KimLoc_DoAn.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.pdb
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.genruntimeconfig.cache
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\ref\KimLoc_DoAn.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\Lập trình web\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\appsettings.Development.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\appsettings.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.staticwebassets.runtime.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.exe
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.deps.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.runtimeconfig.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\KimLoc_DoAn.pdb
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Blazored.LocalStorage.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Humanizer.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.csproj.AssemblyReference.cache
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.AssemblyInfoInputs.cache
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.AssemblyInfo.cs
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.csproj.CoreCompileInputs.cache
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.MvcApplicationPartsAssemblyInfo.cache
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.RazorAssemblyInfo.cache
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.RazorAssemblyInfo.cs
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets.build.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets.development.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.KimLoc_DoAn.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.build.KimLoc_DoAn.props
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.KimLoc_DoAn.props
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.KimLoc_DoAn.props
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\bundle\KimLoc_DoAn.styles.css
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\scopedcss\projectbundle\KimLoc_DoAn.bundle.scp.css
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_D.6C0DDABF.Up2Date
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\refint\KimLoc_DoAn.dll
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.pdb
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\KimLoc_DoAn.genruntimeconfig.cache
+D:\Web blazor\KimLoc_DoAn\KimLoc_DoAn\KimLoc_DoAn\obj\Debug\net6.0\ref\KimLoc_DoAn.dll

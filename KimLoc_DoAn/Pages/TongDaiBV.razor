@@ -1,0 +1,77 @@
+﻿@page "/tongdai"
+<div class="container py-5">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h2 class="display-3" style="color: #007bff;">Đặt khám nhanh</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://healthcenter.vn/uploads/news/2023_06/tongdaidatkhamnhanh_346b3e51c2.jpg" class="card-img-top" alt="Call Center 1" style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Bước 1: Gọi tổng đài</h5>
+                    <p class="card-text">Gọi đến số tổng đài của chúng tôi để bắt đầu quy trình đặt lịch khám.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://cdn.thuvienphapluat.vn/uploads/tintuc/2023/03/30/to-chuc-tin-dung.jpg" class="card-img-top" alt="Call Center 2" style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Bước 2: Cung cấp thông tin</h5>
+                    <p class="card-text">Cung cấp thông tin cá nhân và yêu cầu của bạn cho nhân viên tổng đài.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://thanhpho.tayninh.gov.vn/uploads/news/2023_02/xac-nhan.jpg" class="card-img-top" alt="Call Center 3" style="width: 100%; height: 300px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Bước 3: Xác nhận lịch khám</h5>
+                    <p class="card-text">Nhân viên tổng đài sẽ xác nhận lịch khám của bạn và gửi thông tin qua tin nhắn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="jumbotron jumbotron-fluid" style="background-color: #e9f0f5; padding: 3rem;">
+                <div class="container">
+                    <h1 class="display-4" style="color: #007bff;">Đặt lịch khám qua tổng đài dễ dàng!</h1>
+                    <p class="lead">Chỉ cần một cuộc gọi, bạn đã có thể đặt lịch khám và nhận được sự hỗ trợ tốt nhất từ đội ngũ y tế của chúng tôi.</p>
+                    <hr class="my-4">
+                    <p>Liên hệ với chúng tôi ngay hôm nay để biết thêm thông tin hoặc đặt lịch hẹn</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="jumbotron jumbotron-fluid" style="background-color: #f8f9fa; padding: 3rem;">
+                <div class="container">
+                    <h1 class="display-4" style="color: #007bff;">Hỗ trợ và tư vấn khách hàng 24/7</h1>
+                    <p class="lead">Đội ngũ hỗ trợ khách hàng của chúng tôi luôn sẵn sàng giải đáp mọi thắc mắc và giúp bạn đặt lịch khám nhanh chóng.</p>
+                    <hr class="my-4">
+                    <p>Liên hệ với chúng tôi ngay hôm nay để biết thêm thông tin hoặc đặt lịch hẹn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <a class="btn btn-primary btn-lg" id="datlichBtn" role="button" style="width: 200px;">Đặt lịch hẹn</a>
+            <a class="btn btn-primary btn-lg" id="trangchuBtn" role="button" style="width: 60px;">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('datlichBtn').addEventListener('click', function () {
+        window.location.href = '/datlich';
+    });
+</script>
+<script>
+    document.getElementById('trangchuBtn').addEventListener('click', function () {
+        window.location.href = '/';
+    });
+</script>
